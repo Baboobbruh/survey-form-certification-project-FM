@@ -1,0 +1,99 @@
+h1 {
+    font-family: Koulen;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Poppins;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  input, textarea, select {
+    margin: 6px 0 6px 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  #dropdown, #auto, #manual, #JDM, #USDM, #EDM{
+    width: unset;
+    margin: 6px 0.3em 6px 0;
+    vertical-align: middle;
+  }
+  
+  #dropdown{
+    margin: 40px 10px 40px -1px;  
+  }
+  
+  .radio, .checkbox {
+    font-weight: 100;
+  }
+  
+  legend {
+    margin: 40px 0 0 0;
+  }
+  
+  .box-label {
+    margin: 30px 0 0 0;
+  }
+  
+  label{
+    display: block;
+  }
+  
+  #submit {
+    background-color: #0094FF;
+    border-radius: 3px;
+    border-color: #0094FF;
+    margin: 20px auto;
+    display: block;
+    padding: 12px 40px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  * {
+    color: white;
+    font-family: Poppins;
+  }
+  
+  .content {
+    border-radius: 20px;
+    border: 3px solid #F90;
+    width: 65vw;
+    margin: 0 auto;
+    background: rgba(29, 22, 22, 0.80);
+  }
+  
+  input, select, textarea{
+    border-radius: 3px;
+    border: 1px solid #F90;
+    background: rgba(0, 0, 0, 0.60);
+    color: #C6C6C6;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  
+  body {
+    background: url(https://i.imgur.com/ypoxA0x.jpeg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .image {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    /** cannot FOR THE LIFE OF ME figure out how to blur the background **/
+  }
