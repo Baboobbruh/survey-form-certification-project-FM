@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+
+      <div class="image">
+      <div class="content">
+        <h1 id="title">Modified Cars Community</h1>
+        <p id="description">Help us understand what you love about cars so we can get a good idea of what you wanna see next!</p>
+</head>
+    
+    <body>
+    <form id="survey-form">
+    <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name"/></label>
+    <label id="email-label">Email: <input id="email" type="email" required placeholder="enter your email"/>
+    </label>
+    <label id="number-label">Age (optional): <input id="number" type="number" placeholder="Enter your age" min="16" max="122"/>
+    </label>
+    
+    <label for="dropdown"> Favorite Engine Configuration
+      <select id="dropdown">
+        <option disabled selected>(select one)</option>
+        <option value="V6">V6</option>
+        <option value="V8">V8</option>
+        <option value="V10">V10</option>
+        <option value="V12">V12</option>
+        <option value="I4">I4</option>
+        <option value="I6">I6</option>
+        <option value="Flat-4">Flat 4</option>
+        <option value="Flat-6">Flat 6</option>
+      </select>
+    </label>
+    
+    <legend>Auto or Manual</legend>
+      <label for="auto" class=" radio"><input id="auto" type="radio" name="auto-or-manual" value="auto"/> Auto 
+      </label>
+      <label for="manual" class="radio"><input id="manual" type="radio" name="auto-or-manual" value="manual"/> Manual 
+      </label>
+    
+    <legend>Favorite Type of Car</legend>
+      <label for="JDM" class="checkbox"><input id="JDM" type="checkbox" name="type-of-car" value="JDM"/> JDM</label>
+      <label for="USDM" class="checkbox"><input id="USDM" type="checkbox" name="type-of-car" value="USDM"/> USDM</label>
+      <label for="EDM" class="checkbox"><input id="EDM" type="checkbox" name="type-of-car" value="EDM"/> EDM</label>
+    </body>
+    
+    <footer>
+      <label for="comments" class=" box-label">Any Comments or Suggesions?
+        <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+      </label>
+      <button id="submit">Submit</button>
+    </footer>
+    
+    </form>
+    </div>
+    </div>
+    
+</html>
